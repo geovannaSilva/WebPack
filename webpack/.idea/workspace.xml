@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e5429bc-d048-498b-9026-e909ab36f556" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/client/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/app.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/controllers/NegociacaoController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/controllers/NegociacaoController.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/domain/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/domain/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/domain/negociacao/Negociacao.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/domain/negociacao/Negociacao.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/domain/negociacao/NegociacaoDao.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/domain/negociacao/NegociacaoDao.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/domain/negociacao/NegociacaoService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/domain/negociacao/NegociacaoService.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/domain/negociacao/Negociacoes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/domain/negociacao/Negociacoes.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/ui/converters/DataInvalidaException.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/ui/converters/DataInvalidaException.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/ui/converters/DateConverter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/ui/converters/DateConverter.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/ui/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/ui/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/ui/models/Mensagem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/ui/models/Mensagem.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/ui/views/MensagemView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/ui/views/MensagemView.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/ui/views/NegociacoesView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/ui/views/NegociacoesView.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/ui/views/View.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/ui/views/View.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/ApplicationException.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/ApplicationException.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/Bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/Bind.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/ConnectionFactory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/ConnectionFactory.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/DaoFactory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/DaoFactory.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/ExtendableException.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/ExtendableException.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/HttpService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/HttpService.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/Obrigatorio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/Obrigatorio.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/ProxyFactory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/ProxyFactory.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/decorators/BindEvent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/decorators/BindEvent.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/decorators/Controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/decorators/Controller.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/decorators/Debounce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/decorators/Debounce.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/decorators/DomInject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/decorators/DomInject.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/util/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.bin/babel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.bin/babel-doctor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.bin/babel-external-helpers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.bin/babel-node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.bin/user-home" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/anymatch/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/anymatch/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/anymatch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/anymatch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/anymatch/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/anymatch/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/anymatch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/anymatch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/arr-diff/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/arr-diff/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/arr-diff/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/arr-diff/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/arr-diff/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/arr-diff/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/arr-diff/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/arr-diff/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/arr-flatten/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/arr-flatten/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/array-unique/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/array-unique/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/array-unique/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/array-unique/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/array-unique/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/array-unique/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/array-unique/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/array-unique/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/async-each/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/async-each/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/bin/babel-doctor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/bin/babel-external-helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/bin/babel-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/bin/babel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/lib/_babel-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/lib/babel-external-helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/lib/babel-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/lib/babel/dir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/lib/babel/file.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/lib/babel/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/lib/babel/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-cli/scripts/bootstrap.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-core/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/babel-core/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-core/lib/transformation/file/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/babel-core/lib/transformation/file/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-core/lib/transformation/file/merge-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-core/lib/transformation/file/options/option-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/babel-core/lib/transformation/file/options/option-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-core/lib/transformation/internal-plugins/shadow-functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/babel-core/lib/transformation/internal-plugins/shadow-functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/babel-core/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-generator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/babel-generator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-helper-hoist-variables/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-helper-hoist-variables/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-helper-hoist-variables/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-helper-hoist-variables/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-helpers/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/babel-helpers/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-plugin-transform-es2015-modules-systemjs/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-plugin-transform-es2015-modules-systemjs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-plugin-transform-es2015-modules-systemjs/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-plugin-transform-es2015-modules-systemjs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/dist/polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/dist/polyfill.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/node_modules/regenerator-runtime/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/node_modules/regenerator-runtime/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/node_modules/regenerator-runtime/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/node_modules/regenerator-runtime/path.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime-module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/scripts/build-dist.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/scripts/postpublish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-polyfill/scripts/prepublish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/babel-register/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/babel-register/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/base/node_modules/isobject/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/base/node_modules/isobject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/base/node_modules/isobject/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/base/node_modules/isobject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/base/node_modules/isobject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/binary-extensions/binary-extensions.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/binary-extensions/binary-extensions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/binary-extensions/license" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/binary-extensions/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/binary-extensions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/binary-extensions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/binary-extensions/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/binary-extensions/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/bindings/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/bindings/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/braces/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/braces/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/braces/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/braces/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/braces/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/braces/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/braces/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/braces/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/cache-base/node_modules/isobject/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/cache-base/node_modules/isobject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/cache-base/node_modules/isobject/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/cache-base/node_modules/isobject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/cache-base/node_modules/isobject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/chokidar/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/chokidar/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/chokidar/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/chokidar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/chokidar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/chokidar/lib/fsevents-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/chokidar/lib/fsevents-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/chokidar/lib/nodefs-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/chokidar/lib/nodefs-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/chokidar/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/chokidar/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/class-utils/node_modules/isobject/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/class-utils/node_modules/isobject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/class-utils/node_modules/isobject/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/class-utils/node_modules/isobject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/class-utils/node_modules/isobject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/commander/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/commander/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/commander/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/commander/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/commander/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/commander/typings/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/convert-source-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/convert-source-map/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/define-property/node_modules/isobject/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/define-property/node_modules/isobject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/define-property/node_modules/isobject/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/define-property/node_modules/isobject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/define-property/node_modules/isobject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/define-property/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/define-property/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/expand-brackets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/expand-brackets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/expand-brackets/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/expand-brackets/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/expand-brackets/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/expand-brackets/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/expand-brackets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/expand-brackets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/expand-range/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/expand-range/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/expand-range/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/expand-range/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/extend-shallow/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/extend-shallow/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/extglob/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/extglob/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/extglob/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/extglob/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/extglob/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/extglob/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/extglob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/extglob/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/filename-regex/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/filename-regex/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/filename-regex/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/filename-regex/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fill-range/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/fill-range/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fill-range/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/fill-range/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fill-range/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/fill-range/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fill-range/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/fill-range/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/for-in/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/for-in/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/for-own/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/for-own/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/for-own/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/for-own/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fragment-cache/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/fragment-cache/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fs-readdir-recursive/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fs-readdir-recursive/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fs-readdir-recursive/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fs-readdir-recursive/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fs.realpath/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fs.realpath/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fs.realpath/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fs.realpath/old.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fs.realpath/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/fsevents/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/fsevents/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/binding.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/build/.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/build/Release/.deps/Release/.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/build/Release/.deps/Release/fse.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/build/Release/.deps/Release/obj.target/fse/fsevents.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/build/Release/.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/build/Release/fse.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/build/Release/obj.target/fse/fsevents.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/build/binding.Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/build/config.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/build/fse.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/build/gyp-mac-tool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/fsevents.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/fsevents.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/fsevents/fsevents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/install.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/fsevents/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/src/async.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/src/constants.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/src/methods.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/src/storage.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/fsevents/src/thread.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob-base/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob-base/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob-base/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob-base/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob-parent/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob-parent/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob-parent/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/glob-parent/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob-parent/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/glob-parent/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob-parent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/glob-parent/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob-parent/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/glob-parent/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob-parent/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob/glob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/glob/sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/graceful-fs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/graceful-fs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/has-value/node_modules/isobject/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/has-value/node_modules/isobject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/has-value/node_modules/isobject/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/has-value/node_modules/isobject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/has-value/node_modules/isobject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/inflight/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/inflight/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/inflight/inflight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/inflight/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/inherits/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/inherits/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-binary-path/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-binary-path/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-binary-path/license" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-binary-path/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-binary-path/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-binary-path/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-binary-path/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-binary-path/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-descriptor/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-descriptor/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-dotfile/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-dotfile/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-dotfile/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-dotfile/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-equal-shallow/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-equal-shallow/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-equal-shallow/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-equal-shallow/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-extendable/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-extendable/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-extglob/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-extglob/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-extglob/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-extglob/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-extglob/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-extglob/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-extglob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-extglob/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-glob/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-glob/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-glob/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-glob/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-glob/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-glob/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-glob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-glob/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-number/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-number/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-number/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-number/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-number/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-number/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-number/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/is-number/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-plain-object/node_modules/isobject/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-plain-object/node_modules/isobject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-plain-object/node_modules/isobject/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-plain-object/node_modules/isobject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-plain-object/node_modules/isobject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-posix-bracket/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-posix-bracket/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-posix-bracket/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-posix-bracket/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-primitive/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-primitive/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-primitive/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/is-primitive/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/isarray/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/isobject/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/isobject/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/isobject/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/isobject/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/isobject/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/isobject/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/isobject/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/isobject/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/json5/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/json5/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/kind-of/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/kind-of/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/math-random/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/math-random/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/math-random/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/math-random/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/math-random/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/math-random/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/micromatch/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/micromatch/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/micromatch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/micromatch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/micromatch/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/micromatch/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/micromatch/lib/chars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/micromatch/lib/expand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/micromatch/lib/glob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/micromatch/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/micromatch/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/micromatch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/micromatch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/minimatch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/minimatch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/minimist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/minimist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mkdirp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/mkdirp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/nan/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/nan/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/nanomatch/node_modules/arr-diff/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/nanomatch/node_modules/arr-diff/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/nanomatch/node_modules/arr-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/nanomatch/node_modules/arr-diff/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/nanomatch/node_modules/array-unique/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/nanomatch/node_modules/array-unique/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/nanomatch/node_modules/array-unique/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/nanomatch/node_modules/array-unique/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/nanomatch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/nanomatch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/normalize-path/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/normalize-path/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/normalize-path/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/normalize-path/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/normalize-path/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/normalize-path/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/normalize-path/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/normalize-path/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object-assign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/object-assign/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object-visit/node_modules/isobject/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object-visit/node_modules/isobject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object-visit/node_modules/isobject/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object-visit/node_modules/isobject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object-visit/node_modules/isobject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object.omit/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object.omit/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object.omit/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object.omit/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object.pick/node_modules/isobject/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object.pick/node_modules/isobject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object.pick/node_modules/isobject/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object.pick/node_modules/isobject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object.pick/node_modules/isobject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/object.pick/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/object.pick/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/once/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/once/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/once/once.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/once/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/output-file-sync/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/output-file-sync/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/output-file-sync/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/parse-glob/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/parse-glob/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/parse-glob/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/parse-glob/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/path-is-absolute/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/path-is-absolute/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/posix-character-classes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/posix-character-classes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/preserve/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/preserve/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/preserve/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/preserve/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/preserve/.verb.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/preserve/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/preserve/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/preserve/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/preserve/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/preserve/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/private/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/private/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/randomatic/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/randomatic/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/randomatic/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/randomatic/node_modules/is-number/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/randomatic/node_modules/is-number/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/randomatic/node_modules/is-number/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/randomatic/node_modules/is-number/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/randomatic/node_modules/kind-of/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/randomatic/node_modules/kind-of/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/randomatic/node_modules/kind-of/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/randomatic/node_modules/kind-of/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/randomatic/node_modules/kind-of/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/randomatic/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/readable-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/readdirp/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/readdirp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/arr-diff/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/arr-diff/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/arr-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/arr-diff/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/array-unique/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/array-unique/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/array-unique/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/array-unique/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/braces/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/braces/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/braces/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/braces/lib/braces.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/braces/lib/compilers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/braces/lib/parsers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/braces/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/braces/node_modules/extend-shallow/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/braces/node_modules/extend-shallow/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/braces/node_modules/extend-shallow/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/braces/node_modules/extend-shallow/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/braces/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/lib/compilers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/lib/parsers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/define-property/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/define-property/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/define-property/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/define-property/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/extend-shallow/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/extend-shallow/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/extend-shallow/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/extend-shallow/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-accessor-descriptor/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-accessor-descriptor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-accessor-descriptor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-accessor-descriptor/node_modules/kind-of/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-accessor-descriptor/node_modules/kind-of/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-accessor-descriptor/node_modules/kind-of/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-accessor-descriptor/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-data-descriptor/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-data-descriptor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-data-descriptor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-data-descriptor/node_modules/kind-of/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-data-descriptor/node_modules/kind-of/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-data-descriptor/node_modules/kind-of/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-data-descriptor/node_modules/kind-of/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-data-descriptor/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-descriptor/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-descriptor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-descriptor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-descriptor/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/kind-of/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/kind-of/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/kind-of/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/node_modules/kind-of/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/expand-brackets/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/lib/compilers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/lib/extglob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/lib/parsers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/node_modules/define-property/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/node_modules/define-property/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/node_modules/define-property/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/node_modules/define-property/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/node_modules/extend-shallow/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/node_modules/extend-shallow/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/node_modules/extend-shallow/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/node_modules/extend-shallow/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/extglob/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/fill-range/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/fill-range/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/fill-range/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/fill-range/node_modules/extend-shallow/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/fill-range/node_modules/extend-shallow/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/fill-range/node_modules/extend-shallow/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/fill-range/node_modules/extend-shallow/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/fill-range/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-accessor-descriptor/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-accessor-descriptor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-accessor-descriptor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-accessor-descriptor/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-data-descriptor/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-data-descriptor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-data-descriptor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-data-descriptor/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-descriptor/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-descriptor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-descriptor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-descriptor/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-number/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-number/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-number/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-number/node_modules/kind-of/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-number/node_modules/kind-of/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-number/node_modules/kind-of/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-number/node_modules/kind-of/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/is-number/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/isobject/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/isobject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/isobject/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/isobject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/isobject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/kind-of/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/kind-of/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/kind-of/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/kind-of/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/kind-of/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/micromatch/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/micromatch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/micromatch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/micromatch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/micromatch/lib/cache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/micromatch/lib/compilers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/micromatch/lib/parsers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/micromatch/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/node_modules/micromatch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/readdirp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/readdirp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readdirp/stream-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/regex-cache/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/regex-cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/regex-cache/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/regex-cache/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/regex-not/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/regex-not/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/remove-trailing-separator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/remove-trailing-separator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/repeat-element/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/repeat-element/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/repeat-string/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/repeat-string/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/safe-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/slash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/slash/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/snapdragon-node/node_modules/isobject/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/snapdragon-node/node_modules/isobject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/snapdragon-node/node_modules/isobject/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/snapdragon-node/node_modules/isobject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/snapdragon-node/node_modules/isobject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/snapdragon-node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/snapdragon-node/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/snapdragon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/snapdragon/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/source-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/source-map/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/split-string/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/split-string/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/string_decoder/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/string_decoder/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/to-regex-range/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/to-regex-range/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/to-regex-range/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/to-regex-range/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/to-regex-range/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/to-regex-range/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/to-regex-range/node_modules/is-number/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/to-regex-range/node_modules/is-number/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/to-regex-range/node_modules/is-number/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/to-regex-range/node_modules/is-number/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/to-regex-range/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/to-regex-range/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/to-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/to-regex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/unset-value/node_modules/isobject/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/unset-value/node_modules/isobject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/unset-value/node_modules/isobject/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/unset-value/node_modules/isobject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/unset-value/node_modules/isobject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/user-home/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/user-home/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/user-home/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/user-home/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/user-home/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/util-deprecate/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/util-deprecate/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/v8flags/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/v8flags/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/v8flags/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/v8flags/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/v8flags/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/wrappy/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/wrappy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/wrappy/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/wrappy/wrappy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1fSRnFxolXIugMEBnNRPEixeXce" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e5429bc-d048-498b-9026-e909ab36f556" name="Default Changelist" comment="" />
+      <created>1596209672787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596209672787</updated>
+      <workItem from="1596209674619" duration="3378000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
